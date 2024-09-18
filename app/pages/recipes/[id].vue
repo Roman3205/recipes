@@ -118,7 +118,6 @@ const { data, error } = await useFetch<Recipe>(
   `https://dummyjson.com/recipes/${id}`,
   {
     lazy: true,
-    server: false,
   }
 );
 
