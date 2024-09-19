@@ -8,7 +8,11 @@ export default defineNuxtConfig({
   },
 
   modules: ["@nuxt/ui", "@nuxtjs/google-fonts", "@nuxt/image"],
-
+  colorMode: {
+    preference: "light",
+    fallback: "light",
+    storageKey: "color-mode",
+  },
   googleFonts: {
     families: {
       Montserrat: true,
